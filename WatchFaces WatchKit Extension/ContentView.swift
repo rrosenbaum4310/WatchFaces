@@ -9,10 +9,12 @@ import SwiftUI
 import HealthKit
 
 struct ContentView: View {
+    let lottie = LottieFileManager()
     var body: some View {
         NavigationView {
             List {
                 NavigationLink("Swim Smart Dashboard", destination: SwimSmartDashboard())
+                NavigationLink("Lottie View", destination: LottieView(viewModel: lottie))
                 NavigationLink("Timer Face", destination: TimerFace())
                 NavigationLink("Heart Rate Face", destination: HeartRateFace())
                 NavigationLink("Lap Data Face", destination: LapDataFace())

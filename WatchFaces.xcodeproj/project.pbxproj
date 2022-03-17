@@ -23,6 +23,12 @@
 		DA50A2AC27E3BCE800DA351A /* LiveHRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50A2AB27E3BCE800DA351A /* LiveHRManager.swift */; };
 		DA50A2AE27E3BEE400DA351A /* SwimSmartDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50A2AD27E3BEE400DA351A /* SwimSmartDashboard.swift */; };
 		DA50A2B127E3BF2800DA351A /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50A2B027E3BF2800DA351A /* Ring.swift */; };
+		DAA6517627E3D39C00B55481 /* LottieFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6517527E3D39C00B55481 /* LottieFileManager.swift */; };
+		DAA6517827E3D41D00B55481 /* SDWebImageLottieCoder in Frameworks */ = {isa = PBXBuildFile; productRef = DAA6517727E3D41D00B55481 /* SDWebImageLottieCoder */; };
+		DAA6517A27E3D4C900B55481 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6517927E3D4C900B55481 /* LottieView.swift */; };
+		DAA6517C27E3D54100B55481 /* swim.json in Resources */ = {isa = PBXBuildFile; fileRef = DAA6517B27E3D54100B55481 /* swim.json */; };
+		DAA6517E27E3DB5C00B55481 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6517D27E3DB5C00B55481 /* ColorManager.swift */; };
+		DAA6518027E3DB7600B55481 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6517F27E3DB7600B55481 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +93,11 @@
 		DA50A2AB27E3BCE800DA351A /* LiveHRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveHRManager.swift; sourceTree = "<group>"; };
 		DA50A2AD27E3BEE400DA351A /* SwimSmartDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimSmartDashboard.swift; sourceTree = "<group>"; };
 		DA50A2B027E3BF2800DA351A /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		DAA6517527E3D39C00B55481 /* LottieFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFileManager.swift; sourceTree = "<group>"; };
+		DAA6517927E3D4C900B55481 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		DAA6517B27E3D54100B55481 /* swim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swim.json; sourceTree = "<group>"; };
+		DAA6517D27E3DB5C00B55481 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		DAA6517F27E3DB7600B55481 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA50A2A027E3B2A300DA351A /* HealthKit.framework in Frameworks */,
+				DAA6517827E3D41D00B55481 /* SDWebImageLottieCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +151,8 @@
 				DA50A2A127E3B74900DA351A /* Watch Faces */,
 				DA50A28627E3B1BF00DA351A /* WatchFacesApp.swift */,
 				DA50A28827E3B1BF00DA351A /* ComplicationController.swift */,
+				DAA6517B27E3D54100B55481 /* swim.json */,
+				DAA6517F27E3DB7600B55481 /* Colors.xcassets */,
 				DA50A28A27E3B1BF00DA351A /* Assets.xcassets */,
 				DA50A28F27E3B1BF00DA351A /* Info.plist */,
 				DA50A28C27E3B1BF00DA351A /* Preview Content */,
@@ -170,6 +184,7 @@
 				DA50A2A827E3BBD000DA351A /* SplashView.swift */,
 				DA50A2A427E3B76200DA351A /* HeartRateFace.swift */,
 				DA50A2A627E3B76B00DA351A /* LapDataFace.swift */,
+				DAA6517927E3D4C900B55481 /* LottieView.swift */,
 			);
 			path = "Watch Faces";
 			sourceTree = "<group>";
@@ -178,6 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				DA50A2AB27E3BCE800DA351A /* LiveHRManager.swift */,
+				DAA6517527E3D39C00B55481 /* LottieFileManager.swift */,
+				DAA6517D27E3DB5C00B55481 /* ColorManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -206,6 +223,9 @@
 				DA50A27727E3B1BE00DA351A /* PBXTargetDependency */,
 			);
 			name = WatchFaces;
+			packageProductDependencies = (
+				DAA6517427E3D31D00B55481 /* SDWebImageLottieCoder */,
+			);
 			productName = WatchFaces;
 			productReference = DA50A27027E3B1BE00DA351A /* WatchFaces.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
@@ -240,6 +260,9 @@
 			dependencies = (
 			);
 			name = "WatchFaces WatchKit Extension";
+			packageProductDependencies = (
+				DAA6517727E3D41D00B55481 /* SDWebImageLottieCoder */,
+			);
 			productName = "WatchFaces WatchKit Extension";
 			productReference = DA50A27F27E3B1BF00DA351A /* WatchFaces WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
@@ -274,6 +297,9 @@
 				Base,
 			);
 			mainGroup = DA50A26927E3B1BE00DA351A;
+			packageReferences = (
+				DAA6517327E3D31D00B55481 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */,
+			);
 			productRefGroup = DA50A27127E3B1BE00DA351A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -306,6 +332,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA50A28E27E3B1BF00DA351A /* Preview Assets.xcassets in Resources */,
+				DAA6518027E3DB7600B55481 /* Colors.xcassets in Resources */,
+				DAA6517C27E3D54100B55481 /* swim.json in Resources */,
 				DA50A28B27E3B1BF00DA351A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,9 +352,12 @@
 				DA50A2AC27E3BCE800DA351A /* LiveHRManager.swift in Sources */,
 				DA50A28527E3B1BF00DA351A /* ContentView.swift in Sources */,
 				DA50A2A327E3B75B00DA351A /* TimerFace.swift in Sources */,
+				DAA6517E27E3DB5C00B55481 /* ColorManager.swift in Sources */,
 				DA50A2B127E3BF2800DA351A /* Ring.swift in Sources */,
+				DAA6517627E3D39C00B55481 /* LottieFileManager.swift in Sources */,
 				DA50A28927E3B1BF00DA351A /* ComplicationController.swift in Sources */,
 				DA50A2A927E3BBD000DA351A /* SplashView.swift in Sources */,
+				DAA6517A27E3D4C900B55481 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,6 +675,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DAA6517327E3D31D00B55481 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageLottieCoder.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DAA6517427E3D31D00B55481 /* SDWebImageLottieCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA6517327E3D31D00B55481 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */;
+			productName = SDWebImageLottieCoder;
+		};
+		DAA6517727E3D41D00B55481 /* SDWebImageLottieCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DAA6517327E3D31D00B55481 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */;
+			productName = SDWebImageLottieCoder;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DA50A26A27E3B1BE00DA351A /* Project object */;
 }
