@@ -15,6 +15,7 @@
 		DA50A28927E3B1BF00DA351A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50A28827E3B1BF00DA351A /* ComplicationController.swift */; };
 		DA50A28B27E3B1BF00DA351A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA50A28A27E3B1BF00DA351A /* Assets.xcassets */; };
 		DA50A28E27E3B1BF00DA351A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA50A28D27E3B1BF00DA351A /* Preview Assets.xcassets */; };
+		DA50A2A027E3B2A300DA351A /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA50A29F27E3B2A300DA351A /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		DA50A28A27E3B1BF00DA351A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA50A28D27E3B1BF00DA351A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA50A28F27E3B1BF00DA351A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA50A29D27E3B2A300DA351A /* WatchFaces WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "WatchFaces WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		DA50A29F27E3B2A300DA351A /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA50A2A027E3B2A300DA351A /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +93,7 @@
 				DA50A27827E3B1BE00DA351A /* WatchFaces WatchKit App */,
 				DA50A28327E3B1BF00DA351A /* WatchFaces WatchKit Extension */,
 				DA50A27127E3B1BE00DA351A /* Products */,
+				DA50A29E27E3B2A300DA351A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +118,7 @@
 		DA50A28327E3B1BF00DA351A /* WatchFaces WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				DA50A29D27E3B2A300DA351A /* WatchFaces WatchKit Extension.entitlements */,
 				DA50A28427E3B1BF00DA351A /* ContentView.swift */,
 				DA50A28627E3B1BF00DA351A /* WatchFacesApp.swift */,
 				DA50A28827E3B1BF00DA351A /* ComplicationController.swift */,
@@ -129,6 +135,14 @@
 				DA50A28D27E3B1BF00DA351A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA50A29E27E3B2A300DA351A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA50A29F27E3B2A300DA351A /* HealthKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,6 +410,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "WatchFaces WatchKit Extension/WatchFaces WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchFaces WatchKit Extension/Preview Content\"";
@@ -404,7 +419,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchFaces WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchFaces WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchFaces_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We will request to share your health data usage.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We will request to write your healthd ata for you";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "WatchFaces WatchKit Extension/WatchFaces WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchFaces WatchKit Extension/Preview Content\"";
@@ -436,7 +454,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "WatchFaces WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchFaces WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = WatchFaces_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We will request to share your health data usage.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We will request to write your healthd ata for you";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
