@@ -10,8 +10,15 @@ import HealthKit
 
 struct ContentView: View {
     var body: some View {
-        Text("Watch Faces!")
-            .padding()
+        NavigationView {
+            List {
+                NavigationLink("Swim Smart Dashboard", destination: SwimSmartDashboard())
+                NavigationLink("Timer Face", destination: TimerFace())
+                NavigationLink("Heart Rate Face", destination: HeartRateFace())
+                NavigationLink("Lap Data Face", destination: LapDataFace())
+                NavigationLink("Splash View", destination: SplashView())
+            }
+        }
     }
 }
 
