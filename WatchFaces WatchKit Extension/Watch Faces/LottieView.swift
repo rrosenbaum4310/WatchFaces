@@ -9,26 +9,34 @@ import SwiftUI
 
 struct LottieView: View {
     @ObservedObject var viewModel: LottieFileManager = .init()
-    
+    @State private var hideStatusBar = false
+    @State var lottieFile: String = "health-care"
     var body: some View {
         ZStack {
-            
-            Text("Backstroke")
-                .font(.largeTitle)
-                .foregroundColor(ColorManager.darkblue)
-                .offset(y: 70)
-            
-            Image(uiImage: viewModel.image)
-                .resizable()
-                .scaledToFit()
-                .onAppear {
-                    self.viewModel.loadAnimationFromFile(filename: "swim")
-            }
-                
-            
-        }.edgesIgnoringSafeArea(.all)
+
+            VStack {
+                Text("strokeName")
+                    .font(.title2)
+                    .foregroundColor(ColorManager.lightBlue)
+                Image(uiImage: viewModel.image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    
+                Button("Toggle Status Bar") {
+                    withAnimation {
+                        hideStatusBar.toggle()
+                            navigationBarHidden(true)
+                    }
+                }
+            }.padding()
+        }
+        .onAppear {
+            self.viewModel.loadAnimationFromFile(filename: lottieFile)
+        }
+        
     }
 }
+
 
 struct LottieView_Previews: PreviewProvider {
     static var previews: some View {

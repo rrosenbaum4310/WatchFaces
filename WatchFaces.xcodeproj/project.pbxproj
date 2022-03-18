@@ -29,6 +29,16 @@
 		DAA6517C27E3D54100B55481 /* swim.json in Resources */ = {isa = PBXBuildFile; fileRef = DAA6517B27E3D54100B55481 /* swim.json */; };
 		DAA6517E27E3DB5C00B55481 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6517D27E3DB5C00B55481 /* ColorManager.swift */; };
 		DAA6518027E3DB7600B55481 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6517F27E3DB7600B55481 /* Colors.xcassets */; };
+		DAE8166C27E3DFBB002C94E5 /* pool.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE8166827E3DFBB002C94E5 /* pool.json */; };
+		DAE8166D27E3DFBB002C94E5 /* breastroke.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE8166927E3DFBB002C94E5 /* breastroke.json */; };
+		DAE8166E27E3DFBB002C94E5 /* smart-watch.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE8166A27E3DFBB002C94E5 /* smart-watch.json */; };
+		DAE8166F27E3DFBB002C94E5 /* swim-dive.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE8166B27E3DFBB002C94E5 /* swim-dive.json */; };
+		DAE8167227E3E06E002C94E5 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8167127E3E06E002C94E5 /* Intro.swift */; };
+		DAE8167427E3E28F002C94E5 /* Step1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8167327E3E28F002C94E5 /* Step1.swift */; };
+		DAE8167627E3E2C4002C94E5 /* Step2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8167527E3E2C4002C94E5 /* Step2.swift */; };
+		DAE8167827E3E2C9002C94E5 /* Step3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8167727E3E2C9002C94E5 /* Step3.swift */; };
+		DAE8167A27E3E2ED002C94E5 /* MainMinuteTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8167927E3E2ED002C94E5 /* MainMinuteTestView.swift */; };
+		DAE8167E27E3F3FC002C94E5 /* health-care.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE8167D27E3F3FC002C94E5 /* health-care.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +108,16 @@
 		DAA6517B27E3D54100B55481 /* swim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swim.json; sourceTree = "<group>"; };
 		DAA6517D27E3DB5C00B55481 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		DAA6517F27E3DB7600B55481 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DAE8166827E3DFBB002C94E5 /* pool.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pool.json; sourceTree = "<group>"; };
+		DAE8166927E3DFBB002C94E5 /* breastroke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breastroke.json; sourceTree = "<group>"; };
+		DAE8166A27E3DFBB002C94E5 /* smart-watch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "smart-watch.json"; sourceTree = "<group>"; };
+		DAE8166B27E3DFBB002C94E5 /* swim-dive.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "swim-dive.json"; sourceTree = "<group>"; };
+		DAE8167127E3E06E002C94E5 /* Intro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		DAE8167327E3E28F002C94E5 /* Step1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1.swift; sourceTree = "<group>"; };
+		DAE8167527E3E2C4002C94E5 /* Step2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2.swift; sourceTree = "<group>"; };
+		DAE8167727E3E2C9002C94E5 /* Step3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3.swift; sourceTree = "<group>"; };
+		DAE8167927E3E2ED002C94E5 /* MainMinuteTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMinuteTestView.swift; sourceTree = "<group>"; };
+		DAE8167D27E3F3FC002C94E5 /* health-care.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "health-care.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +171,7 @@
 				DA50A2A127E3B74900DA351A /* Watch Faces */,
 				DA50A28627E3B1BF00DA351A /* WatchFacesApp.swift */,
 				DA50A28827E3B1BF00DA351A /* ComplicationController.swift */,
-				DAA6517B27E3D54100B55481 /* swim.json */,
+				DAE8166727E3DF3E002C94E5 /* LottieFiles */,
 				DAA6517F27E3DB7600B55481 /* Colors.xcassets */,
 				DA50A28A27E3B1BF00DA351A /* Assets.xcassets */,
 				DA50A28F27E3B1BF00DA351A /* Info.plist */,
@@ -180,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				DA50A2AD27E3BEE400DA351A /* SwimSmartDashboard.swift */,
+				DAE8167027E3E047002C94E5 /* 3 minute test */,
 				DA50A2A227E3B75B00DA351A /* TimerFace.swift */,
 				DA50A2A827E3BBD000DA351A /* SplashView.swift */,
 				DA50A2A427E3B76200DA351A /* HeartRateFace.swift */,
@@ -205,6 +226,31 @@
 				DA50A2B027E3BF2800DA351A /* Ring.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		DAE8166727E3DF3E002C94E5 /* LottieFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8167D27E3F3FC002C94E5 /* health-care.json */,
+				DAE8166927E3DFBB002C94E5 /* breastroke.json */,
+				DAE8166827E3DFBB002C94E5 /* pool.json */,
+				DAE8166A27E3DFBB002C94E5 /* smart-watch.json */,
+				DAE8166B27E3DFBB002C94E5 /* swim-dive.json */,
+				DAA6517B27E3D54100B55481 /* swim.json */,
+			);
+			path = LottieFiles;
+			sourceTree = "<group>";
+		};
+		DAE8167027E3E047002C94E5 /* 3 minute test */ = {
+			isa = PBXGroup;
+			children = (
+				DAE8167127E3E06E002C94E5 /* Intro.swift */,
+				DAE8167327E3E28F002C94E5 /* Step1.swift */,
+				DAE8167527E3E2C4002C94E5 /* Step2.swift */,
+				DAE8167727E3E2C9002C94E5 /* Step3.swift */,
+				DAE8167927E3E2ED002C94E5 /* MainMinuteTestView.swift */,
+			);
+			path = "3 minute test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,9 +377,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE8166C27E3DFBB002C94E5 /* pool.json in Resources */,
 				DA50A28E27E3B1BF00DA351A /* Preview Assets.xcassets in Resources */,
 				DAA6518027E3DB7600B55481 /* Colors.xcassets in Resources */,
+				DAE8167E27E3F3FC002C94E5 /* health-care.json in Resources */,
+				DAE8166F27E3DFBB002C94E5 /* swim-dive.json in Resources */,
+				DAE8166D27E3DFBB002C94E5 /* breastroke.json in Resources */,
 				DAA6517C27E3D54100B55481 /* swim.json in Resources */,
+				DAE8166E27E3DFBB002C94E5 /* smart-watch.json in Resources */,
 				DA50A28B27E3B1BF00DA351A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,12 +397,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA50A2A527E3B76200DA351A /* HeartRateFace.swift in Sources */,
+				DAE8167A27E3E2ED002C94E5 /* MainMinuteTestView.swift in Sources */,
 				DA50A2AE27E3BEE400DA351A /* SwimSmartDashboard.swift in Sources */,
+				DAE8167427E3E28F002C94E5 /* Step1.swift in Sources */,
+				DAE8167827E3E2C9002C94E5 /* Step3.swift in Sources */,
 				DA50A28727E3B1BF00DA351A /* WatchFacesApp.swift in Sources */,
+				DAE8167627E3E2C4002C94E5 /* Step2.swift in Sources */,
 				DA50A2A727E3B76B00DA351A /* LapDataFace.swift in Sources */,
 				DA50A2AC27E3BCE800DA351A /* LiveHRManager.swift in Sources */,
 				DA50A28527E3B1BF00DA351A /* ContentView.swift in Sources */,
 				DA50A2A327E3B75B00DA351A /* TimerFace.swift in Sources */,
+				DAE8167227E3E06E002C94E5 /* Intro.swift in Sources */,
 				DAA6517E27E3DB5C00B55481 /* ColorManager.swift in Sources */,
 				DA50A2B127E3BF2800DA351A /* Ring.swift in Sources */,
 				DAA6517627E3D39C00B55481 /* LottieFileManager.swift in Sources */,
