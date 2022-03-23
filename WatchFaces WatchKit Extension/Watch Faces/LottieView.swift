@@ -10,24 +10,18 @@ import SwiftUI
 struct LottieView: View {
     @ObservedObject var viewModel: LottieFileManager = .init()
     @State private var hideStatusBar = false
-    @State var lottieFile: String = "health-care"
+    @State var lottieFile: String = "breastroke"
     var body: some View {
         ZStack {
 
             VStack {
-                Text("strokeName")
+                Text("Breaststroke")
                     .font(.title2)
                     .foregroundColor(ColorManager.lightBlue)
                 Image(uiImage: viewModel.image)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
-                    
-                Button("Toggle Status Bar") {
-                    withAnimation {
-                        hideStatusBar.toggle()
-                            navigationBarHidden(true)
-                    }
-                }
+                    .frame(width: 150, height: 150, alignment: .center)
             }.padding()
         }
         .onAppear {

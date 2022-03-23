@@ -29,6 +29,14 @@
 		DAA6517C27E3D54100B55481 /* swim.json in Resources */ = {isa = PBXBuildFile; fileRef = DAA6517B27E3D54100B55481 /* swim.json */; };
 		DAA6517E27E3DB5C00B55481 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6517D27E3DB5C00B55481 /* ColorManager.swift */; };
 		DAA6518027E3DB7600B55481 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6517F27E3DB7600B55481 /* Colors.xcassets */; };
+		DACA0ED827E8E3E50035B270 /* hand-holding-golden-medal.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0ED727E8E3E50035B270 /* hand-holding-golden-medal.json */; };
+		DACA0EDA27E8E5830035B270 /* robot.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0ED927E8E5830035B270 /* robot.json */; };
+		DACA0EDC27E8E72F0035B270 /* wave-chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0EDB27E8E72F0035B270 /* wave-chart.json */; };
+		DACA0EDE27E8E8EF0035B270 /* wave-chart-blue.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0EDD27E8E8EF0035B270 /* wave-chart-blue.json */; };
+		DACA0EE027E8E99E0035B270 /* double-wave-loader.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0EDF27E8E99E0035B270 /* double-wave-loader.json */; };
+		DACA0EE227E8EA400035B270 /* wave-graph.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0EE127E8EA400035B270 /* wave-graph.json */; };
+		DACA0EE427E8EAAC0035B270 /* champion-trophy.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0EE327E8EAAC0035B270 /* champion-trophy.json */; };
+		DACA0EE627E8FB8E0035B270 /* outdoor-meeting.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0EE527E8FB8E0035B270 /* outdoor-meeting.json */; };
 		DAE8166C27E3DFBB002C94E5 /* pool.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE8166827E3DFBB002C94E5 /* pool.json */; };
 		DAE8166D27E3DFBB002C94E5 /* breastroke.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE8166927E3DFBB002C94E5 /* breastroke.json */; };
 		DAE8166E27E3DFBB002C94E5 /* smart-watch.json in Resources */ = {isa = PBXBuildFile; fileRef = DAE8166A27E3DFBB002C94E5 /* smart-watch.json */; };
@@ -108,6 +116,14 @@
 		DAA6517B27E3D54100B55481 /* swim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swim.json; sourceTree = "<group>"; };
 		DAA6517D27E3DB5C00B55481 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		DAA6517F27E3DB7600B55481 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DACA0ED727E8E3E50035B270 /* hand-holding-golden-medal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "hand-holding-golden-medal.json"; sourceTree = "<group>"; };
+		DACA0ED927E8E5830035B270 /* robot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = robot.json; sourceTree = "<group>"; };
+		DACA0EDB27E8E72F0035B270 /* wave-chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "wave-chart.json"; sourceTree = "<group>"; };
+		DACA0EDD27E8E8EF0035B270 /* wave-chart-blue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "wave-chart-blue.json"; sourceTree = "<group>"; };
+		DACA0EDF27E8E99E0035B270 /* double-wave-loader.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "double-wave-loader.json"; sourceTree = "<group>"; };
+		DACA0EE127E8EA400035B270 /* wave-graph.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "wave-graph.json"; sourceTree = "<group>"; };
+		DACA0EE327E8EAAC0035B270 /* champion-trophy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "champion-trophy.json"; sourceTree = "<group>"; };
+		DACA0EE527E8FB8E0035B270 /* outdoor-meeting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "outdoor-meeting.json"; sourceTree = "<group>"; };
 		DAE8166827E3DFBB002C94E5 /* pool.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = pool.json; sourceTree = "<group>"; };
 		DAE8166927E3DFBB002C94E5 /* breastroke.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = breastroke.json; sourceTree = "<group>"; };
 		DAE8166A27E3DFBB002C94E5 /* smart-watch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "smart-watch.json"; sourceTree = "<group>"; };
@@ -231,9 +247,17 @@
 		DAE8166727E3DF3E002C94E5 /* LottieFiles */ = {
 			isa = PBXGroup;
 			children = (
+				DACA0EE527E8FB8E0035B270 /* outdoor-meeting.json */,
+				DACA0EE327E8EAAC0035B270 /* champion-trophy.json */,
+				DACA0ED727E8E3E50035B270 /* hand-holding-golden-medal.json */,
 				DAE8167D27E3F3FC002C94E5 /* health-care.json */,
 				DAE8166927E3DFBB002C94E5 /* breastroke.json */,
 				DAE8166827E3DFBB002C94E5 /* pool.json */,
+				DACA0EE127E8EA400035B270 /* wave-graph.json */,
+				DACA0EDD27E8E8EF0035B270 /* wave-chart-blue.json */,
+				DACA0EDB27E8E72F0035B270 /* wave-chart.json */,
+				DACA0EDF27E8E99E0035B270 /* double-wave-loader.json */,
+				DACA0ED927E8E5830035B270 /* robot.json */,
 				DAE8166A27E3DFBB002C94E5 /* smart-watch.json */,
 				DAE8166B27E3DFBB002C94E5 /* swim-dive.json */,
 				DAA6517B27E3D54100B55481 /* swim.json */,
@@ -383,9 +407,17 @@
 				DAE8167E27E3F3FC002C94E5 /* health-care.json in Resources */,
 				DAE8166F27E3DFBB002C94E5 /* swim-dive.json in Resources */,
 				DAE8166D27E3DFBB002C94E5 /* breastroke.json in Resources */,
+				DACA0EDE27E8E8EF0035B270 /* wave-chart-blue.json in Resources */,
 				DAA6517C27E3D54100B55481 /* swim.json in Resources */,
+				DACA0EDA27E8E5830035B270 /* robot.json in Resources */,
+				DACA0EE227E8EA400035B270 /* wave-graph.json in Resources */,
 				DAE8166E27E3DFBB002C94E5 /* smart-watch.json in Resources */,
+				DACA0EDC27E8E72F0035B270 /* wave-chart.json in Resources */,
+				DACA0EE627E8FB8E0035B270 /* outdoor-meeting.json in Resources */,
 				DA50A28B27E3B1BF00DA351A /* Assets.xcassets in Resources */,
+				DACA0EE027E8E99E0035B270 /* double-wave-loader.json in Resources */,
+				DACA0EE427E8EAAC0035B270 /* champion-trophy.json in Resources */,
+				DACA0ED827E8E3E50035B270 /* hand-holding-golden-medal.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,15 +12,18 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                NavigationLink("Swim Smart Dashboard", destination: SwimSmartDashboard())
-                NavigationLink("3 Min Test", destination: Intro())
-                NavigationLink("Lottie View", destination: LottieView())
+                NavigationLink("Main Workout Face", destination: SwimSmartDashboard())
+                NavigationLink("3 Minute Test", destination: Intro())
+                
                 NavigationLink("Timer Face", destination: TimerFace())
-                NavigationLink("Heart Rate Face", destination: HeartRateFace())
-                NavigationLink("Lap Data Face", destination: LapDataFace())
-                NavigationLink("Splash View", destination: SplashView())
+//                NavigationLink("Heart Rate Face", destination: HeartRateFace())
+//                NavigationLink("Lap Data Face", destination: LapDataFace())
+//                NavigationLink("Splash View", destination: SplashView())
+                
+                // MARK: - Used for Lottie development
+//                NavigationLink("Lottie View", destination: LottieView())
             }
-        }
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 
