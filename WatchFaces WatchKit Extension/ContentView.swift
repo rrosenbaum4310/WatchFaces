@@ -9,12 +9,17 @@ import SwiftUI
 import HealthKit
 
 struct ContentView: View {
+
     var body: some View {
         NavigationView {
             List {
+                NavigationLink("Strokes/lap", destination: StrokesPerLap())
+
+                
                 NavigationLink("Main Workout Face", destination: SwimSmartDashboard())
                 NavigationLink("3 Minute Test", destination: Intro())
-                
+                NavigationLink("HR Zone Face", destination: HRZoneFace())
+
                 NavigationLink("Timer Face", destination: TimerFace())
 //                NavigationLink("Heart Rate Face", destination: HeartRateFace())
 //                NavigationLink("Lap Data Face", destination: LapDataFace())

@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage.git",
       "state" : {
-        "revision" : "2e63d0061da449ad0ed130768d05dceb1496de44",
-        "version" : "5.12.5"
+        "revision" : "cc1995b73883a1f97931366879d862c53a32bf82",
+        "version" : "5.13.1"
       }
     },
     {
@@ -25,6 +25,24 @@
       "state" : {
         "branch" : "master",
         "revision" : "c9f65679a9b0510b89673507f548a7c0f17ba95f"
+      }
+    },
+    {
+      "identity" : "swiftui-charts",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/spacenation/swiftui-charts.git",
+      "state" : {
+        "revision" : "b044e7eb04d0026490eecb115f4fc07197dad942",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "swiftui-shapes",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/spacenation/swiftui-shapes.git",
+      "state" : {
+        "revision" : "c58b15c37eae9bd20525c6daa93a06a689ca75cb",
+        "version" : "1.1.0"
       }
     }
   ],

@@ -23,12 +23,19 @@
 		DA50A2AC27E3BCE800DA351A /* LiveHRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50A2AB27E3BCE800DA351A /* LiveHRManager.swift */; };
 		DA50A2AE27E3BEE400DA351A /* SwimSmartDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50A2AD27E3BEE400DA351A /* SwimSmartDashboard.swift */; };
 		DA50A2B127E3BF2800DA351A /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA50A2B027E3BF2800DA351A /* Ring.swift */; };
+		DA8CF54D27ECF9CB00532534 /* HRZoneFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF54C27ECF9CB00532534 /* HRZoneFace.swift */; };
+		DA8CF55027ECFB0A00532534 /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = DA8CF54F27ECFB0A00532534 /* Charts */; };
 		DAA6517627E3D39C00B55481 /* LottieFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6517527E3D39C00B55481 /* LottieFileManager.swift */; };
 		DAA6517827E3D41D00B55481 /* SDWebImageLottieCoder in Frameworks */ = {isa = PBXBuildFile; productRef = DAA6517727E3D41D00B55481 /* SDWebImageLottieCoder */; };
 		DAA6517A27E3D4C900B55481 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6517927E3D4C900B55481 /* LottieView.swift */; };
 		DAA6517C27E3D54100B55481 /* swim.json in Resources */ = {isa = PBXBuildFile; fileRef = DAA6517B27E3D54100B55481 /* swim.json */; };
 		DAA6517E27E3DB5C00B55481 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA6517D27E3DB5C00B55481 /* ColorManager.swift */; };
 		DAA6518027E3DB7600B55481 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA6517F27E3DB7600B55481 /* Colors.xcassets */; };
+		DAB58E05288AD32800AC5549 /* StrokesPerLap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB58E04288AD32800AC5549 /* StrokesPerLap.swift */; };
+		DAB58E07288AD37B00AC5549 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB58E06288AD37B00AC5549 /* WorkoutManager.swift */; };
+		DAB58E0A288AD3FD00AC5549 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB58E08288AD3FD00AC5549 /* ControlsView.swift */; };
+		DAB58E0B288AD3FD00AC5549 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB58E09288AD3FD00AC5549 /* MetricsView.swift */; };
+		DAB58E0D288AD40B00AC5549 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB58E0C288AD40B00AC5549 /* ElapsedTimeView.swift */; };
 		DACA0ED827E8E3E50035B270 /* hand-holding-golden-medal.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0ED727E8E3E50035B270 /* hand-holding-golden-medal.json */; };
 		DACA0EDA27E8E5830035B270 /* robot.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0ED927E8E5830035B270 /* robot.json */; };
 		DACA0EDC27E8E72F0035B270 /* wave-chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DACA0EDB27E8E72F0035B270 /* wave-chart.json */; };
@@ -111,11 +118,17 @@
 		DA50A2AB27E3BCE800DA351A /* LiveHRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveHRManager.swift; sourceTree = "<group>"; };
 		DA50A2AD27E3BEE400DA351A /* SwimSmartDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimSmartDashboard.swift; sourceTree = "<group>"; };
 		DA50A2B027E3BF2800DA351A /* Ring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		DA8CF54C27ECF9CB00532534 /* HRZoneFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRZoneFace.swift; sourceTree = "<group>"; };
 		DAA6517527E3D39C00B55481 /* LottieFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFileManager.swift; sourceTree = "<group>"; };
 		DAA6517927E3D4C900B55481 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		DAA6517B27E3D54100B55481 /* swim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swim.json; sourceTree = "<group>"; };
 		DAA6517D27E3DB5C00B55481 /* ColorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		DAA6517F27E3DB7600B55481 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		DAB58E04288AD32800AC5549 /* StrokesPerLap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokesPerLap.swift; sourceTree = "<group>"; };
+		DAB58E06288AD37B00AC5549 /* WorkoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		DAB58E08288AD3FD00AC5549 /* ControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		DAB58E09288AD3FD00AC5549 /* MetricsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		DAB58E0C288AD40B00AC5549 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		DACA0ED727E8E3E50035B270 /* hand-holding-golden-medal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "hand-holding-golden-medal.json"; sourceTree = "<group>"; };
 		DACA0ED927E8E5830035B270 /* robot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = robot.json; sourceTree = "<group>"; };
 		DACA0EDB27E8E72F0035B270 /* wave-chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "wave-chart.json"; sourceTree = "<group>"; };
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA50A2A027E3B2A300DA351A /* HealthKit.framework in Frameworks */,
+				DA8CF55027ECFB0A00532534 /* Charts in Frameworks */,
 				DAA6517827E3D41D00B55481 /* SDWebImageLottieCoder in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +196,11 @@
 			children = (
 				DA50A29D27E3B2A300DA351A /* WatchFaces WatchKit Extension.entitlements */,
 				DA50A28427E3B1BF00DA351A /* ContentView.swift */,
+				DAB58E06288AD37B00AC5549 /* WorkoutManager.swift */,
+				DAB58E08288AD3FD00AC5549 /* ControlsView.swift */,
+				DAB58E09288AD3FD00AC5549 /* MetricsView.swift */,
+				DAB58E0C288AD40B00AC5549 /* ElapsedTimeView.swift */,
+				DAB58E04288AD32800AC5549 /* StrokesPerLap.swift */,
 				DA50A2AF27E3BF1C00DA351A /* Components */,
 				DA50A2AA27E3BCD500DA351A /* Managers */,
 				DA50A2A127E3B74900DA351A /* Watch Faces */,
@@ -220,6 +239,7 @@
 				DA50A2A227E3B75B00DA351A /* TimerFace.swift */,
 				DA50A2A827E3BBD000DA351A /* SplashView.swift */,
 				DA50A2A427E3B76200DA351A /* HeartRateFace.swift */,
+				DA8CF54C27ECF9CB00532534 /* HRZoneFace.swift */,
 				DA50A2A627E3B76B00DA351A /* LapDataFace.swift */,
 				DAA6517927E3D4C900B55481 /* LottieView.swift */,
 			);
@@ -332,6 +352,7 @@
 			name = "WatchFaces WatchKit Extension";
 			packageProductDependencies = (
 				DAA6517727E3D41D00B55481 /* SDWebImageLottieCoder */,
+				DA8CF54F27ECFB0A00532534 /* Charts */,
 			);
 			productName = "WatchFaces WatchKit Extension";
 			productReference = DA50A27F27E3B1BF00DA351A /* WatchFaces WatchKit Extension.appex */;
@@ -369,6 +390,7 @@
 			mainGroup = DA50A26927E3B1BE00DA351A;
 			packageReferences = (
 				DAA6517327E3D31D00B55481 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */,
+				DA8CF54E27ECFB0A00532534 /* XCRemoteSwiftPackageReference "swiftui-charts" */,
 			);
 			productRefGroup = DA50A27127E3B1BE00DA351A /* Products */;
 			projectDirPath = "";
@@ -432,19 +454,25 @@
 				DAE8167A27E3E2ED002C94E5 /* MainMinuteTestView.swift in Sources */,
 				DA50A2AE27E3BEE400DA351A /* SwimSmartDashboard.swift in Sources */,
 				DAE8167427E3E28F002C94E5 /* Step1.swift in Sources */,
+				DA8CF54D27ECF9CB00532534 /* HRZoneFace.swift in Sources */,
 				DAE8167827E3E2C9002C94E5 /* Step3.swift in Sources */,
 				DA50A28727E3B1BF00DA351A /* WatchFacesApp.swift in Sources */,
 				DAE8167627E3E2C4002C94E5 /* Step2.swift in Sources */,
+				DAB58E07288AD37B00AC5549 /* WorkoutManager.swift in Sources */,
 				DA50A2A727E3B76B00DA351A /* LapDataFace.swift in Sources */,
+				DAB58E0A288AD3FD00AC5549 /* ControlsView.swift in Sources */,
 				DA50A2AC27E3BCE800DA351A /* LiveHRManager.swift in Sources */,
 				DA50A28527E3B1BF00DA351A /* ContentView.swift in Sources */,
 				DA50A2A327E3B75B00DA351A /* TimerFace.swift in Sources */,
 				DAE8167227E3E06E002C94E5 /* Intro.swift in Sources */,
+				DAB58E05288AD32800AC5549 /* StrokesPerLap.swift in Sources */,
+				DAB58E0D288AD40B00AC5549 /* ElapsedTimeView.swift in Sources */,
 				DAA6517E27E3DB5C00B55481 /* ColorManager.swift in Sources */,
 				DA50A2B127E3BF2800DA351A /* Ring.swift in Sources */,
 				DAA6517627E3D39C00B55481 /* LottieFileManager.swift in Sources */,
 				DA50A28927E3B1BF00DA351A /* ComplicationController.swift in Sources */,
 				DA50A2A927E3BBD000DA351A /* SplashView.swift in Sources */,
+				DAB58E0B288AD3FD00AC5549 /* MetricsView.swift in Sources */,
 				DAA6517A27E3D4C900B55481 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -765,6 +793,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DA8CF54E27ECFB0A00532534 /* XCRemoteSwiftPackageReference "swiftui-charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		DAA6517327E3D31D00B55481 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageLottieCoder.git";
@@ -776,6 +812,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DA8CF54F27ECFB0A00532534 /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA8CF54E27ECFB0A00532534 /* XCRemoteSwiftPackageReference "swiftui-charts" */;
+			productName = Charts;
+		};
 		DAA6517427E3D31D00B55481 /* SDWebImageLottieCoder */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DAA6517327E3D31D00B55481 /* XCRemoteSwiftPackageReference "SDWebImageLottieCoder" */;
